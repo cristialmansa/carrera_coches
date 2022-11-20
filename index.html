@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera de coches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.1.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1 class="gradient-text" id="titulo">Bienvenido a la carrera de coches</h1>
+    <p class="pparticipantes" id="instrucciones">Antes de empezar, selecciona el número de coches que quieres que participen:
+        <select name="participantes" id="desplparticipantes">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+    </p>
+    <div class="box-btn1">
+        <button type="button" id="btn1" class="btn">Mostrar la selección</button>
+    </div>
+    <div class="coches">
+    </div>
+    <div class="box-btn2-3">
+        <button type="button" id="btn2" class="btn">Iniciar</button>
+        <button type="button" id="btn3" class="btn">Reiniciar</button>
+    </div>
+    <table class="tabla" id="tabla">
+        <tr>
+            <th>Coche participante</th>
+            <th>Tiempo en llegar a la meta</th>
+        </tr>
+    </table>
+</body>
+</html>
